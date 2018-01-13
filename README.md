@@ -22,6 +22,11 @@ These two sets were provided from the original MNIST dataset.
 **I strongly suggest you download the gzipped files, as the non-gzipped files
 are very large**
 
+To download the files, something like this should work:
+
+    curl -LO https://github.com/lorenmh/mnist_handwritten_json/raw/master/mnist_handwritten_test.json.gz
+    curl -LO https://github.com/lorenmh/mnist_handwritten_json/raw/master/mnist_handwritten_train.json.gz
+
 To decompress:
 
     gunzip *.gz
