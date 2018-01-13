@@ -1,6 +1,11 @@
 # MNIST Handwritten Digits as JSON
 All data is from http://yann.lecun.com/exdb/mnist/.
 
+There are **70,000** examples in total in the datasets:
+
+* **60,000** training examples in `mnist_handwritten_train.json`
+* **10,000** test examples in `mnist_handwritten_test.json`
+
 The data is in a JSON format. Each JSON file contains an array of objects,
 where each object has two fields:
 
