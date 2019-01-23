@@ -19,8 +19,6 @@ These two sets were provided from the original MNIST dataset.
 
 ## File sizes
 
-    70M   mnist_handwritten_test.json
-    421M  mnist_handwritten_train.json
     2.8M  mnist_handwritten_test.json.gz
     17M   mnist_handwritten_train.json.gz
 
@@ -39,3 +37,8 @@ To decompress:
     gunzip *.gz
 
 If you clone you will need [git-lfs](https://git-lfs.github.com/).
+
+## To run
+You'll need the `process.sh` and `convert_to_json.py` files in some directory. The `process.sh` script will create a directory `data/` in the same directory as the script, and will call `convert_to_json.py` to convert the data from the IDX format to JSON.
+
+I just removed the non-gzipped JSON files as Github has been notifying me that I am going over my data limits, my guess is it's the 420MB uncompressed JSON file I had in here :)
